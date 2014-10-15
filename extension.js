@@ -86,7 +86,7 @@
         motdInterval: 5,
         motd: "Temporary Message of the Day",
         filterChat: true,
-        etaRestriction: false,
+        etaRestriction: true,
         welcome: true,
         opLink: null,
         rulesLink: "http://bcarbo.wix.com/murica-f-yeah",
