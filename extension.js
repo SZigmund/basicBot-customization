@@ -93,7 +93,7 @@
         themeLink: null,
         fbLink: null,
         youtubeLink: null,
-        website: null,
+        website: "https://www.facebook.com/groups/226222424234128/",
         intervalMessages: [],
         messageInterval: 5,
         songstats: true,
