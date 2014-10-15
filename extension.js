@@ -99,7 +99,7 @@
         songstats: true,
         commandLiteral: "!",
         blacklists: {
-            BAN: "https://rawgit.com/SZigmund/basicBot-customization/master/blacklists/ExampleBANlist.json",
+            BAN: "https://rawgit.com/SZigmund/basicBot-customization/master/blacklists/Banned.json",
             NSFW: "https://rawgit.com/SZigmund/basicBot-customization/master/blacklists/ExampleNSFWlist.json",
             OP: "https://rawgit.com/SZigmund/basicBot-customization/master/blacklists/ExampleOPlist.json"
         }
