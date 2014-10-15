@@ -89,7 +89,7 @@
         etaRestriction: false,
         welcome: true,
         opLink: null,
-        rulesLink: "We don't need no stinkin rules",
+        rulesLink: "http://bcarbo.wix.com/murica-f-yeah",
         themeLink: null,
         fbLink: "https://www.facebook.com/groups/226222424234128/",
         youtubeLink: null,
@@ -99,8 +99,9 @@
         songstats: true,
         commandLiteral: "!",
         blacklists: {
-            NSFW: "https://rawgit.com/Yemasthui/basicBot-customization/master/blacklists/ExampleNSFWlist.json",
-            OP: "https://rawgit.com/Yemasthui/basicBot-customization/master/blacklists/ExampleOPlist.json"
+            BAN: "https://rawgit.com/SZigmund/basicBot-customization/master/blacklists/ExampleBANlist.json",
+            NSFW: "https://rawgit.com/SZigmund/basicBot-customization/master/blacklists/ExampleNSFWlist.json",
+            OP: "https://rawgit.com/SZigmund/basicBot-customization/master/blacklists/ExampleOPlist.json"
         }
     }));
 
