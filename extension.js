@@ -89,7 +89,7 @@
         etaRestriction: true,
         welcome: true,
         opLink: null,
-        rulesLink: "http://bcarbo.wix.com/murica-f-yeah",
+        rulesLink: "http://tinyurl.com/MuricaRules",
         themeLink: null,
         fbLink: "https://www.facebook.com/groups/226222424234128/",
         youtubeLink: null,
