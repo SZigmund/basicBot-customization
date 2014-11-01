@@ -55,7 +55,7 @@
     localStorage.setItem("basicBotsettings", JSON.stringify({
         botName: "basicBot",
         language: "english",
-        chatLink: "https://rawgit.com/Yemasthui/basicBot/master/lang/en.json",
+        chatLink: "https://rawgit.com/SZigmund/basicBot/master/lang/en.json",
         maximumAfk: 60,
         afkRemoval: true,
         maximumDc: 120,
@@ -106,6 +106,6 @@
     }));
 
     //Start the bot and extend it when it has loaded.
-    $.getScript('https://rawgit.com/Yemasthui/basicBot/master/basicBot.js', extend);
+    $.getScript('https://rawgit.com/SZigmund/basicBot/master/basicBot.js', extend);
 
 }).call(this);
