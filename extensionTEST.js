@@ -1,6 +1,6 @@
 (function () {
 
-    //Define our function responsible for extending the bot.
+    //Define our function responsible for extending the bot. Version 2.14.0001
     function extend() {
         //If the bot hasn't been loaded properly, try again in 1 second(s).
         if (!window.bot) {
@@ -16,6 +16,7 @@
         /*
          Extend the bot here, either by calling another function or here directly.
          Model code for a bot command:
+
          bot.commands.commandCommand = {
          command: 'cmd',
          rank: 'user/bouncer/mod/manager',
@@ -28,6 +29,7 @@
          }
          }
          }
+
          */
 
         bot.commands.baconCommand = {
@@ -78,8 +80,8 @@
             ["nsfw", "The song you contained was NSFW (image or sound). "],
             ["unavailable", "The song you played was not available for some users. "]
         ],
-        afkpositionCheck: 15,
-        afkRankCheck: "bouncer",
+        afkpositionCheck: 30,
+        afkRankCheck: "ambassador",
         motdEnabled: false,
         motdInterval: 5,
         motd: "Temporary Message of the Day",
