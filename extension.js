@@ -99,7 +99,7 @@
         intervalMessages: [],
         messageInterval: 5,
         songstats: true,
-        commandLiteral: "!",
+        commandLiteral: ".",
         blacklists: {
             BAN: "https://rawgit.com/SZigmund/basicBot-customization/master/blacklists/Banned.json",
             NSFW: "https://rawgit.com/SZigmund/basicBot-customization/master/blacklists/ExampleNSFWlist.json",
