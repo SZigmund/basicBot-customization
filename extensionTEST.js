@@ -1,6 +1,6 @@
 (function () {
 
-    //Define our function responsible for extending the bot. Version 2.14.0001
+    //Define our function responsible for extending the bot. Version 2.15.0001
     function extend() {
         //If the bot hasn't been loaded properly, try again in 1 second(s).
         if (!window.bot) {
@@ -67,6 +67,8 @@
         maximumCycletime: 10,
         timeGuard: true,
         maximumSongLength: 8,
+        repeatSongs: true,
+        repeatSongTime: 5, //480,
         autodisable: false,
         commandCooldown: 30,
         usercommandsEnabled: true,
@@ -97,7 +99,7 @@
         intervalMessages: [],
         messageInterval: 5,
         songstats: true,
-        commandLiteral: "!",
+        commandLiteral: ".",
         blacklists: {
             BAN: "https://rawgit.com/SZigmund/basicBot-customization/master/blacklists/Banned.json",
             NSFW: "https://rawgit.com/SZigmund/basicBot-customization/master/blacklists/ExampleNSFWlist.json",
