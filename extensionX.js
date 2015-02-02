@@ -1,6 +1,6 @@
 (function () {
 
-    //Define our function responsible for extending the bot.
+    //Define our function responsible for extending the bot. Version 2.15.0001
     function extend() {
         //If the bot hasn't been loaded properly, try again in 1 second(s).
         if (!window.bot) {
@@ -55,10 +55,10 @@
     localStorage.setItem("basicBotsettings", JSON.stringify({
         botName: "basicBot",
         language: "english",
-        chatLink: "https://rawgit.com/Yemasthui/basicBot/master/lang/en.json",
-        maximumAfk: 120,
+        chatLink: "https://rawgit.com/SZigmund/basicBot/master/lang/en.json",
+        maximumAfk: 60,
         afkRemoval: true,
-        maximumDc: 60,
+        maximumDc: 120,
         bouncerPlus: true,
         lockdownEnabled: false,
         lockGuard: false,
@@ -66,8 +66,15 @@
         cycleGuard: true,
         maximumCycletime: 10,
         timeGuard: true,
-        maximumSongLength: 10,
-        autodisable: true,
+        maximumSongLength: 8,
+        repeatSongs: true,
+        repeatSongTime: 240,
+		skipSound5Days: false,
+		skipSound7Days: true,
+		skipSoundStart: 7,
+		skipSoundEnd: 15,
+		skipSoundRange: "Monday-Friday between 7AM and 3PM EST",
+        autodisable: false,
         commandCooldown: 30,
         usercommandsEnabled: true,
         lockskipPosition: 3,
@@ -80,31 +87,32 @@
             ["nsfw", "The song you contained was NSFW (image or sound). "],
             ["unavailable", "The song you played was not available for some users. "]
         ],
-        afkpositionCheck: 15,
+        afkpositionCheck: 30,
         afkRankCheck: "ambassador",
         motdEnabled: false,
         motdInterval: 5,
         motd: "Temporary Message of the Day",
         filterChat: true,
-        etaRestriction: false,
+        etaRestriction: true,
         welcome: true,
         opLink: null,
-        rulesLink: null,
+        rulesLink: "http://tinyurl.com/MuricaRules",
         themeLink: null,
-        fbLink: null,
+        fbLink: "https://www.facebook.com/groups/226222424234128/",
         youtubeLink: null,
-        website: null,
+        website: "https://www.facebook.com/groups/226222424234128/",
         intervalMessages: [],
         messageInterval: 5,
         songstats: true,
-        commandLiteral: "!",
+        commandLiteral: ".",
         blacklists: {
-            NSFW: "https://rawgit.com/Yemasthui/basicBot-customization/master/blacklists/ExampleNSFWlist.json",
-            OP: "https://rawgit.com/Yemasthui/basicBot-customization/master/blacklists/ExampleOPlist.json"
+            BAN: "https://rawgit.com/SZigmund/basicBot-customization/master/blacklists/Banned.json",
+            NSFW: "https://rawgit.com/SZigmund/basicBot-customization/master/blacklists/ExampleNSFWlist.json",
+            OP: "https://rawgit.com/SZigmund/basicBot-customization/master/blacklists/ExampleOPlist.json"
         }
     }));
 
     //Start the bot and extend it when it has loaded.
-    $.getScript('https://rawgit.com/Yemasthui/basicBot/master/basicBot.js', extend);
+    $.getScript('https://rawgit.com/Yemasthui/basicBot/master/basicBotTEST.js', extend);
 
 }).call(this);
