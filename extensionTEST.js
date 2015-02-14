@@ -68,7 +68,7 @@
         timeGuard: true,
         maximumSongLength: 8,
         repeatSongs: true,
-        repeatSongTime: 240,
+        repeatSongTime: 180,
         skipSound5Days: true,
         skipSound7Days: false,
         skipSoundStart: 7,
