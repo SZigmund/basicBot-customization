@@ -68,7 +68,7 @@
         timeGuard: true,
         maximumSongLength: 8,
         repeatSongs: true,
-        repeatSongTime: 240,
+        repeatSongTime: 180,
         autodisable: false,
         commandCooldown: 30,
         usercommandsEnabled: true,
