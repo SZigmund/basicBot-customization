@@ -62,7 +62,6 @@
         afk7Days: false,
         afkRemoveStart: 7,
         afkRemoveEnd: 17,
-        afkRemoveRange: "Monday-Friday between 7AM and 5PM EST",
         maximumDc: 120,
         bouncerPlus: true,
         lockdownEnabled: false,
