@@ -53,7 +53,8 @@
     //Change the bots default settings and make sure they are loaded on launch
 
     localStorage.setItem("basicBotsettings", JSON.stringify({
-        botName: "basicBot",
+        autoWootBot: true,
+        botName: "Larry the LAW",
         language: "english",
         chatLink: "https://rawgit.com/SZigmund/basicBot/master/lang/en.json",
         maximumAfk: 60,
