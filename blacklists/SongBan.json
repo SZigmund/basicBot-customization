@@ -1,0 +1,13 @@
+{
+    "1":{
+        "mid": "1:SBsongID1"
+    },
+    "2":{
+        "title": "This is a SB song",
+        "author": "The SB band",
+        "mid": "1:SBsongID2"
+    },
+    "3":{
+        "mid": "1:SBsongID3"
+    }
+}
