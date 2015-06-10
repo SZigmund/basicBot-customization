@@ -109,6 +109,7 @@
         intervalMessages: [],
         messageInterval: 5,
         songstats: true,
+        suppressSongStats: false,
         commandLiteral: ".",
         blacklists: {
             BAN: "https://rawgit.com/SZigmund/basicBot-customization/master/blacklists/Banned.json",
