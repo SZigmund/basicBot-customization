@@ -56,7 +56,6 @@
         autoWootBot: false,
         botName: "Larry the LAW",
         language: "english",
-        // chatLink: "https://rawgit.com/SZigmund/basicBot/master/lang/en.json",
         chatLink: "https://cdn.jsdelivr.net/gh/SZigmund/basicBot@master/lang/en.json",
         maximumAfk: 60,
         afkRemoval: true,
@@ -112,9 +111,6 @@
         songstats: true,
         suppressSongStats: false,
         blacklists: {
-            //BAN: "https://rawgit.com/SZigmund/basicBot-customization/master/blacklists/Banned.json",
-            //NSFW: "https://rawgit.com/SZigmund/basicBot-customization/master/blacklists/ExampleNSFWlist.json",
-            //OP: "https://rawgit.com/SZigmund/basicBot-customization/master/blacklists/ExampleOPlist.json"
             BAN: "https://cdn.jsdelivr.net/gh/SZigmund/basicBot-customization@master/blacklists/Banned.json",
             NSFW: "https://cdn.jsdelivr.net/gh/SZigmund/basicBot-customization@master/blacklists/ExampleNSFWlist.json",
             OP: "https://cdn.jsdelivr.net/gh/SZigmund/basicBot-customization@master/blacklists/ExampleOPlist.json"
@@ -122,7 +118,6 @@
     }));
 
     //Start the bot and extend it when it has loaded.
-    //$.getScript('https://rawgit.com/SZigmund/basicBot/master/basicBot.js', extend);
     $.getScript('https://cdn.jsdelivr.net/gh/SZigmund/basicBot@master/basicBot.js', extend);
 
 }).call(this);
