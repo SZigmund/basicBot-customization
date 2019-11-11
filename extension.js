@@ -56,7 +56,7 @@
         autoWootBot: false,
         botName: "Larry the LAW",
         language: "english",
-        chatLink: "https://cdn.jsdelivr.net/gh/SZigmund/basicBot@master/lang/en.json",
+        chatLink: "https://rawcdn.githack.com/SZigmund/basicBot/53419c50ecb2c0d70892a5f13877106cc7eb3f34/lang/en.json",
         maximumAfk: 60,
         afkRemoval: true,
         afk5Days: true,
@@ -111,13 +111,13 @@
         songstats: true,
         suppressSongStats: false,
         blacklists: {
-            BAN: "https://cdn.jsdelivr.net/gh/SZigmund/basicBot-customization@master/blacklists/Banned.json",
-            NSFW: "https://cdn.jsdelivr.net/gh/SZigmund/basicBot-customization@master/blacklists/ExampleNSFWlist.json",
-            OP: "https://cdn.jsdelivr.net/gh/SZigmund/basicBot-customization@master/blacklists/ExampleOPlist.json"
+            BAN: "https://rawcdn.githack.com/SZigmund/basicBot-customization/1d035e64d1af8de06c22a19b9fe9571db012d5e1/blacklists/Banned.json",
+            NSFW: "https://rawcdn.githack.com/SZigmund/basicBot-customization/1d035e64d1af8de06c22a19b9fe9571db012d5e1/blacklists/ExampleNSFWlist.json",
+            OP: "https://rawcdn.githack.com/SZigmund/basicBot-customization/1d035e64d1af8de06c22a19b9fe9571db012d5e1/blacklists/ExampleOPlist.json"
         }
     }));
 
     //Start the bot and extend it when it has loaded.
-    $.getScript('https://cdn.jsdelivr.net/gh/SZigmund/basicBot@master/basicBot.js', extend);
+    $.getScript('https://rawcdn.githack.com/SZigmund/basicBot/f4b1a9d30a7e9f022ef600dd41cae07a91797bad/basicBot.js', extend);
 
 }).call(this);
