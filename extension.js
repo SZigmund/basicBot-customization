@@ -56,7 +56,7 @@
         autoWootBot: false,
         botName: "Larry the LAW",
         language: "english",
-        chatLink: "https://rawcdn.githack.com/SZigmund/basicBot/53419c50ecb2c0d70892a5f13877106cc7eb3f34/lang/en.json",
+        chatLink: "https://rawcdn.githack.com/SZigmund/basicBot/f4b1a9d30a7e9f022ef600dd41cae07a91797bad/lang/en.json",
         maximumAfk: 60,
         afkRemoval: true,
         afk5Days: true,
@@ -118,6 +118,6 @@
     }));
 
     //Start the bot and extend it when it has loaded.
-    $.getScript('https://rawcdn.githack.com/SZigmund/basicBot/f4b1a9d30a7e9f022ef600dd41cae07a91797bad/basicBot.js', extend);
+    $.getScript('https://rawcdn.githack.com/SZigmund/basicBot/dbb02254893f0e4a2956f347cdb8fa57584cecad/basicBot.js', extend);
 
 }).call(this);
