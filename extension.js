@@ -13,7 +13,7 @@
         //Load custom settings set below
         bot.retrieveSettings();
 
-        /*
+/*
          Extend the bot here, either by calling another function or here directly.
          Model code for a bot command:
 
@@ -30,8 +30,6 @@
          }
          }
 
-         */
-
         bot.commands.baconCommand = {
             command: 'bacon',  //The command to be called. With the standard command literal this would be: !bacon
             rank: 'user', //Minimum user permission to use the command
@@ -44,6 +42,7 @@
                 }
             }
         };
+*/
 
         //Load the chat package again to account for any changes
         bot.loadChat();
@@ -118,6 +117,6 @@
     }));
 
     //Start the bot and extend it when it has loaded.
-    $.getScript('https://rawcdn.githack.com/SZigmund/basicBot/a6fc3654b159209fd1e6fe8a251daada4b1fa3d9/basicBot.js', extend);
+    $.getScript('https://rawcdn.githack.com/SZigmund/basicBot/ed3d7131948bc92cc5481cdaf9c337ddf263c73e/basicBot.js', extend);
 
 }).call(this);
